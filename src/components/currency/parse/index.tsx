@@ -48,7 +48,7 @@ export default function ParseCurrencyComponent() {
                     optionLabel={"k"}
                 />
                 <TextInput required type={'number'} label={"Amount"} name={'amount'} placeholder={"Enter amount..."}/>
-                <Button type={'submit'} className={"bg-green-500 text-white"} color={"red"}
+                <Button type={'submit'} className={"bg-green-500 text-white py-3"} color={"red"}
                         variant={'filled'}>Convert</Button>
             </form>
             <div className="flex justify-center items-center my-10">

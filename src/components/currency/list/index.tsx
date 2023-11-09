@@ -33,7 +33,7 @@ export default function ListCurrencyComponent() {
                     optionValue={"k"}
                     optionLabel={"k"}
                 />
-            <Button type={"submit"} className={"px-4"} color={'green'} variant={'filled'}>Search</Button>
+            <Button type={"submit"} className={"px-4 py-3"} color={'green'} variant={'filled'}>Search</Button>
             </form>
 
             <div className="flex justify-center items-center my-10">
