@@ -2,11 +2,16 @@
 import {Card, CardBody, Tab, TabPanel, Tabs, TabsBody, TabsHeader} from "@material-tailwind/react";
 import ParseCurrencyComponent from "../../components/currency/parse";
 import ListCurrencyComponent from "../../components/currency/list";
+import img from '../../assets/bg-image.png'
 
 export default function Home() {
 
     return (
-        <div className={"w-full h-screen bg-mainBg bg-cover bg-center flex items-center justify-center"}>
+        <div className={`w-full h-screen bg-cover bg-center flex items-center justify-center`}
+        style={{
+            backgroundImage: `url(${img})`
+        }}
+        >
             <Card className={"2xl:w-1/3 xl:w-1/4 md:w-1/2 w-11/12 rounded p-0"}>
                 <CardBody>
                     <Tabs value={"isLastStep"}>
