@@ -30,7 +30,7 @@ export default function ParseCurrencyComponent() {
                 }
 
                 dispatch(getConvert(data))
-            }} className="grid grid-cols-4 items-end gap-2">
+            }} className="grid md:grid-cols-4 grid-cols-2 items-end gap-2">
                 <SelectInput
                     required
                     label={"From"}
