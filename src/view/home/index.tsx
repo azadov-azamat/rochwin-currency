@@ -14,7 +14,7 @@ export default function Home() {
         >
             <Card className={"2xl:w-1/3 xl:w-1/4 md:w-1/2 w-11/12 rounded p-0"}>
                 <CardBody>
-                    <Tabs value={"isLastStep"}>
+                    <Tabs value={"parse-currency"}>
                         <TabsHeader className={"font-bold text-base"}>
                             <Tab value={"parse-currency"}
                                  className={'py-2 cursor-pointer hover:text-white hover:bg-gray-400 duration-500'}>
