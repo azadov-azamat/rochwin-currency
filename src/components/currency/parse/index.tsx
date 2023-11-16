@@ -26,7 +26,7 @@ export default function ParseCurrencyComponent() {
                     from: formData.get('from'),
                     to: formData.get('to'),
                     amount: formData.get('amount'),
-                    api_key: '632a2646ba-d39ea6c572-s3stj3'
+                    api_key: 'ca7c7591a9-d84ff1114b-s47fzc'
                 }
 
                 dispatch(getConvert(data))

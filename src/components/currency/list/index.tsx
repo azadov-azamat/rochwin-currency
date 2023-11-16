@@ -19,7 +19,7 @@ export default function ListCurrencyComponent() {
                 const data = {
                     from: formData.get('from'),
                     to: formData.get('from'),
-                    api_key: '632a2646ba-d39ea6c572-s3stj3'
+                    api_key: 'ca7c7591a9-d84ff1114b-s47fzc'
                 }
                 nbu.forEach(item => data.to += ", " + item.k)
 
